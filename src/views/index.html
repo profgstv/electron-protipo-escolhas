@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+    <title>Prototipo Electron</title>
+    <link rel="stylesheet" href="../public/css/screen-switcher.css">
+    <link rel="stylesheet" href="../public/css/buttons-style.css">
+    <link rel="stylesheet" href="../public/css/page-style.css">
+</head>
+
+<body>
+    <h1>Dragon Ball - Caminhos do Dragão</h1>
+    <div class="tela mostrar" id="tela-0">
+        <img src="../public/img/0.png" alt="Esfera do Dragão">
+        <p>Bem vindo ao jogo! Escolha seu personagem:</p>
+        <div class="lista">
+            <button class="btn-link" data-link="1">Goku</button>
+            <button class="btn-link" data-link="2">Vegeta</button>
+        </div>
+    </div>
+    <div class="tela" id="tela-1">
+        <img src="../public/img/1.png" alt="Goku">
+        <p>Oi, eu sou o Goku!</p>
+        <div class="lista">
+            <button class="btn-link" data-link="0">Voltar ao Início</button>
+            <button class="btn-link" data-link="2">Vegeta</button>
+        </div>
+    </div>
+    <div class="tela" id="tela-2">
+        <img src="../public/img/2.png" alt="Vegeta">
+        <p>Pff.. Eu sou o Vegeta, príncipe dos Saiajins!</p>
+        <div class="lista">
+            <button class="btn-link" data-link="0">Voltar ao Início</button>
+            <button class="btn-link" data-link="1">Goku</button>
+        </div>
+    </div>
+    <div class="lista">
+        <button class="btn-sair" id="sair">Sair</button>
+    </div>
+    <script src="../public/js/game-script.js"></script>
+    <script src="../public/js/quit-game.js"></script>
+</body>
+
+</html>

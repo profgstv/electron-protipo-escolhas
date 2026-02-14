@@ -1,0 +1,23 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "Prototipo do Jogo de Escolha",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/profgstv/electron.git"
+  },
+  "author": "gdfmj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/profgstv/electron/issues"
+  },
+  "homepage": "https://github.com/profgstv/electron#readme",
+  "devDependencies": {
+    "electron": "^40.4.1"
+  }
+}

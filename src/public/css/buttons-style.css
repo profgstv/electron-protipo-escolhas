@@ -1,0 +1,19 @@
+button {
+    text-align: center;
+    font-family: Nunito;
+    font-weight: 800;
+    font-size: 3vh;
+    color:#c02942;
+
+    background-color: #ecd078;
+    margin: 0.5vh;
+    border: 0;
+    padding: 2vh;
+}
+button:hover {
+    background-color: #d95b43;
+}
+.lista {
+    display: grid;
+    grid-template-columns: 1;
+}
